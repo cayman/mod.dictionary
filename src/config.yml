@@ -1,0 +1,10 @@
+name: dictionary
+url:
+  default: '/models/:name.json'
+field:
+  key: code
+  reg: reg
+  value : value
+value:
+  empty: null  # if true show key, if string value show string
+  loading: '...'
